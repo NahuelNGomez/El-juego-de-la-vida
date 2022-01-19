@@ -1,20 +1,17 @@
 # El-juego-de-la-vida
 Este trabajo se trata sobre realizar una recreación de un juego llamado “El juego de la  vida” de John Horton Conway.
 
-TP1 – Algoritmos y programación II 
- Cátedra Calvo 
-
-Alumno: Nahuel Nicolás Gomez				N° Padrón: 106514
 INFORME:
+
 Este trabajo se trata sobre realizar una recreación de un juego llamado “El juego de la vida” de 
 John Horton Conway.
 El trabajo lo dividí en 6 archivos:
-1.	Principal.cpp = En este archivo se incluirán las bibliotecas utilizadas y solo existirá la función MAIN con sus respectivas acciones.
-2.	Celulas.h = Aquí se crearan las estructuras a utilizar para el juego completo.
-3.	Impresiones.cpp = Será un archivo con las funciones que representen una impresión por pantalla, como por ejemplo, mostrar el mapa.
-4.	Impresiones.h = Son las declaraciones sobre el archivo “Impresiones.cpp”.
-5.	Acciones.cpp = Este archivo se basa en incluir todas las acciones que se realizan en el juego, como por ejemplo, pedir la cantidad de células vivas al comienzo de la partida y cómo posicionarlas en el terreno.
-6.	Acciones.h = Son las declaraciones sobre el archivo “Acciones.cpp”.
+	1.Principal.cpp = En este archivo se incluirán las bibliotecas utilizadas y solo existirá la función MAIN con sus respectivas acciones.
+	2.Celulas.h = Aquí se crearan las estructuras a utilizar para el juego completo.
+	3.Impresiones.cpp = Será un archivo con las funciones que representen una impresión por pantalla, como por ejemplo, mostrar el mapa.
+	4.Impresiones.h = Son las declaraciones sobre el archivo “Impresiones.cpp”.
+	5.Acciones.cpp = Este archivo se basa en incluir todas las acciones que se realizan en el juego, como por ejemplo, pedir la cantidad de células vivas al comienzo de la partida y cómo posicionarlas en el terreno.
+	6.Acciones.h = Son las declaraciones sobre el archivo “Acciones.cpp”.
 Mapa: 
 •	Es un rectángulo 20x80.
 •	En los bordes se encuentran los números de las posiciones para que resulte mucho más sencillo ubicar a las células en un primer turno.
@@ -46,12 +43,12 @@ Pasos a seguir en la ejecución:
 	3) Se irán mostrando, por cada célula posicionada, el mapa actual colocando a las células que ya se han posicionado.
 	4) Luego de que se termina de ubicar a todas las células iniciales, se podrán realizar tres acciones ->            
           ■ Jugar Turno (J). 
-	        ■ Reiniciar (R). 
-				  ■ Salir del juego (S). 
+	  ■ Reiniciar (R)
+	  ■ Salir del juego (S). 
 
-        	■ Se jugará el turno próximo.
-        	■ El juego volverá hasta el primer turno, exactamente como fueron posicionadas   ___las células por primera vez.
-        	■ El juego terminará.
+        	(J) ■ Se jugará el turno próximo.
+        	(R) ■ El juego volverá hasta el primer turno, exactamente como fueron posicionadas   ___las células por primera vez.
+        	(S) ■ El juego terminará.
 
 
 
